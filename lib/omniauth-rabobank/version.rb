@@ -1,0 +1,5 @@
+module OmniAuth
+  module Rabobank
+    VERSION = "0.1.0"
+  end
+end
