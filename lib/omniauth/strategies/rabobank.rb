@@ -4,9 +4,9 @@ module OmniAuth
   module Strategies
     class Rabobank < OmniAuth::Strategies::OAuth2
       option :client_options, {
-        :site => 'https://api.github.com',
-        :authorize_url => 'https://github.com/login/oauth/authorize',
-        :token_url => 'https://github.com/login/oauth/access_token'
+        :site => 'https://api-sandbox.rabobank.nl',
+        :authorize_url => 'https://api-sandbox.rabobank.nl/openapi/sandbox/oauth2/authorize',
+        :token_url => 'https://api-sandbox.rabobank.nl/openapi/sandbox/oauth2/token'
       }
 
       def request_phase
